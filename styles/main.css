@@ -1,0 +1,45 @@
+:root {
+    --fonte-principal: MontSerrat, sans-serif;
+    --cor-principal: #F8FAE5;
+    --cor-secundaria:  #FBF9F1;
+    --cor-terciaria: #43766C;
+    --cor-hover: #f1f5d3;
+    --cor-fonte:  #3D3B40;
+}
+
+body {
+    background-color: var(--cor-principal);
+}
+
+.texto_principal {
+    margin-top: 8rem;
+    margin-left: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.texto_titulo {
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte);
+    margin-bottom: 6rem;
+}
+
+.paragrafos {
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.texto_paragrafo {
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte);
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.imagem_inicial {
+    margin: 0 auto;
+    border-radius: 12rem;
+}
+
+
+
